@@ -1,6 +1,6 @@
 # pleural-effusion
 3D segmentation of pleural effusion from CT using nnUNet &amp; 3D classification
-
+:a
 ## Project Overview:
 This project addresses the 3D segmentation of the femur from CT scans. Due to issues with TotalSegmentator cropping the femoral head, manual labeling of 29 cases was conducted to improve segmentation accuracy using the nnUNet model.
 
@@ -8,7 +8,8 @@ This project addresses the 3D segmentation of the femur from CT scans. Due to is
 - Perform femur segmentation from CT scans using **nnUNet** with manually corrected 29 masks.
 - TotalSegmentator issue
 
-## Dataset:
+
+##  🗂️ Dataset:
 
 ### Data Overview
 | Feature               | Description                                     |
@@ -20,7 +21,7 @@ This project addresses the 3D segmentation of the femur from CT scans. Due to is
   - 5-Fold Split:
     - **23** for Training 
     - **6** for Validation
-
+🏗️
 ## Workflow:
 1. **Data Preparation**:
    - 29 CT scans of the femur were manually labeled for segmentation.
@@ -43,7 +44,7 @@ Here is a comparison between the original mask and the improved mask:
 **Improved Mask:**
 
 
-## Future Research Directions:
+## 🔍 Future Research Directions:
 This project aims to support **downstream research** related to the femur by providing high-quality segmentation masks.
 
 
